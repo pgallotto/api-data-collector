@@ -18,4 +18,4 @@ Este projeto é um script Python que coleta dados de movimentações de uma API 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/coleta-movimentacoes-api.git
+   git clone https://github.com/pgallotto/api-data-collector
