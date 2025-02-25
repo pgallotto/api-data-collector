@@ -19,3 +19,18 @@ Este projeto é um script Python que coleta dados de movimentações de uma API 
 1. Clone o repositório:
    ```bash
    git clone https://github.com/pgallotto/api-data-collector
+
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+
+3. Configure o script:
+
+- Substitua o valor de TOLKEN no cabeçalho da API pelo seu token de autenticação.
+- Ajuste os parâmetros datainicial e datafinal conforme necessário.
+
+4. Execute o script:
+   ```bash
+   python src/coleta_movimentacoes.py
+
+O arquivo CSV será gerado no caminho especificado em CAMINHO_ARQUIVO.
